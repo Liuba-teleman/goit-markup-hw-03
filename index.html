@@ -16,10 +16,9 @@
 <body>
     <header class="header">
         <div class="container">
+            <a class="logo" href="index.html"> <span >Web</span>Studio</a>
         <nav class="navList">
-        <a class="logo" href="index.html"> <span >Web</span>Studio</a>
-            <ul>
-               
+           <ul class="header-list">
                 <li>
                     <a class="header-links" href="index.html">Студия</a>
                 </li>
@@ -29,34 +28,34 @@
                 <li>
                     <a class="header-links" href="#contacts">Контакты</a>
                 </li>
+                               
             </ul>
         </nav>
-        <ul class="contactsList">
-            <li>
+        <div class="header-contacts">
+          <ul class="header-list">
+                  <li>
                 <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
                 <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
-        </ul>
+            </ul>
+          </div>
         </div>
     </header>
     <main>
         <section class="section1">
           <div class="container">
-          <div class="container-content">
-           <h1 class="about">Эффективные решения для вашего бизнеса </h1>
-           <button class="mainButton"  type="button">Заказать услугу</button>
-             </div>
-        </div>
+                    <h1 class="about">Эффективные решения для <br> вашего бизнеса </br> </h1>
+          <div class="container-button">
+            <button class="mainbutton"  type="button">Заказать услугу</button></div>
+          </div>
         </section>
-        <section class="main">
+        <section class="about-section">
             <div class="container">
-             <ul>
+            <ul class="about-list">
           <li>
             <h3 class="about-title">Внимание к деталям</h3>
-          </li>
-          <li>
             <p class="about-text">
               Идейные соображения,а также начало повседневной работы по
               формированию позиции.
@@ -64,8 +63,6 @@
           </li>
           <li>
             <h3 class="about-title" >Пунктуальность</h3>
-          </li>
-          <li>
             <p class="about-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -73,8 +70,6 @@
           </li>
           <li>
             <h3 class="about-title">Планирование</h3>
-          </li>
-          <li>
             <p class="about-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -82,17 +77,16 @@
           </li>
           <li>
             <h3 class="about-title">Современные технологии</h3>
-          </li>
-          <li>
-            <p class="about-text">
+           <p class="about-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
           </li>
         </ul>
-    
+        </section>
+        <section>
             <h2 class="what-we-do">Чем мы занимаемся</h2>
-            <ul>
+            <ul class="about-list">
                 <li>
                     <img src="./img/box1.jpg" alt="фото1" width="270">
                 </li>
@@ -106,30 +100,37 @@
             </ul>
             </div>
         </section>
-        <section>
+        <section class="team-content">
             <div class="container">
             <h2 class="team">Наша команда</h2>
-            <ul>
-                <li>
+            <ul class="team-list">
+                <li class="team-list-item">
                     <img src="./img/productdesigner.jpg" alt="Игорь Демьяненко" width="270">
+                  <div class="team-member-wrap">
                     <h3 class="team-member">Игорь Демьяненко</h3>
                     <p class="team-role">Product Designer</p>
-
-                </li>
-                <li>
+                  </div>
+                 </li>
+                <li class="team-list-item">
                     <img src="./img/frontenddeveloper.jpg" alt="Ольга Репина" width="270">
+                  <div class="team-member-wrap">
                     <h3 class="team-member">Ольга Репина</h3>
                     <p class="team-role">Frontend Developer</p>
+                    </div>
                 </li>
-                <li>
+                <li class="team-list-item">
                     <img src="./img/marketing.jpg" alt="Николай Тарасов" width="270">
+                    <div class="team-member-wrap">
                     <h3 class="team-member">Николай Тарасов</h3>
                     <p class="team-role">Marketing</p>
+                    </div>
                 </li>
-                <li>
+                <li class="team-list-item">
                     <img src="./img/uidesigner.jpg" alt="Михаил Ермаков" width="270">
+                    <div class="team-member-wrap">
                     <h3 class="team-member">Михаил Ермаков</h3>
                     <p class="team-role">UI Designer</p>
+                    </div>
                 </li>
             </ul>
             </div>
