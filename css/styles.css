@@ -138,15 +138,27 @@ color: #212121;
   align-items: center;
   justify-content: center;
   }
-  .team-list{
+.team-list{
  display: flex;
  column-gap: 30px;
 }
 .menu {
  border: 1px solid #ECECEC;
+ padding-top: 94px;
+ padding-bottom: 94px;
 }
-.menu .container{
+.menu .menu-list {
  display: flex;
+ justify-content: center;
+ margin-bottom: 50px;
+}
+.menu-item {
+ margin-right: 8px;
+}
+.menu .elements-list{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 30px;
 }
 .menu-elements{
 font-weight: 400;
@@ -155,6 +167,14 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
+.elements-item {
+width: calc((100% - 60px) /3);
+border: 1px solid #eeeeee;
+ }
+ .element-items-footer {
+ padding: 20px 24px;
+ 
+ }
 .menu-elements-names {
 font-weight: 700;
 font-size: 18px;
