@@ -117,6 +117,7 @@ a {
 }
 .header .container{
  display: flex;
+ align-items: center;
 }
 .header-contacts{
  margin-left: auto;
@@ -124,6 +125,7 @@ a {
 .header-list{
  display: flex;
  column-gap: 50px;
+ 
 }
 
 .header-links {
@@ -135,14 +137,17 @@ color: #212121;
 }
 .about-list {
 display: flex;
-     padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    list-style: none;
-        gap: 30px;
+padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+list-style: none;
+gap: 30px;
 }
  
-
+.about-list-items{
+ max-width: 270px;
+ margin-right: 30px;
+}
 .team-list{
  display: flex;
  column-gap: 30px;
@@ -291,6 +296,7 @@ color: #757575;
 
 .address {
   color: white;
+ 
   }
 .studio {
   color: white;
@@ -304,7 +310,11 @@ color: #757575;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+ margin-top: 20px;
 }
+.footer-adress-item {
+ margin-bottom: 9px;
+   }
 p, h1,h2,h3,h4,h5,h6 {
   margin: 0;
 }
